@@ -434,7 +434,7 @@ ALTER TABLE Seeker.SeekerProfile ADD JobsAppliedCount AS dbo.CountJobsApplied(Us
 	VALUES
 	(1, 123, 1, '2020-01-20', 1, 'Design, develop, implement, test, and document embedded or distributed software applications'),
 	(2, 123, 2, '2020-02-21', 2, 'Manage a talented team of engineers to create innovative technology that changes the face of organizational management'),
-	(3, 123, 3, '2020-02-22', 3, 'Contribute to the architecture, design and implementation of next generation BI solutions – including streaming data applications'),
+	(3, 123, 3, '2020-02-22', 3, 'Contribute to the architecture, design and implementation of next generation BI solutions Â– including streaming data applications'),
 	(4, 234, 4, '2020-01-23', 4, 'Think strategically and analytically about business, product, and technical challenges, with the ability to work cross-organizationally'),
 	(5, 234, 5, '2020-03-15', 5, 'Partner with teams to build effective sourcing and assessment, with an ability to manage customer/partner expectations'),
 	(6, 234, 6, '2020-02-22', 6, 'Define features and processes, drive projects end-to-end, collaborate with numerous cross-functional teams to implement solutions'),
@@ -648,7 +648,7 @@ ALTER TABLE Seeker.SeekerProfile ADD JobsAppliedCount AS dbo.CountJobsApplied(Us
 	SELECT * FROM Seeker.SeekerExperience
 	SELECT * FROM Seeker.Skill
 
---############################## DELETE SCRIPTS ##################################
+--############################## DELETE SCRIPTS ################################
 	DELETE FROM [Job].[JobPostingSkill]
 	DELETE FROM [Seeker].[SeekerSkill]
 	DELETE FROM [Seeker].[Skill]
